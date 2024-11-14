@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.header .nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.header .nav a:hover {
+    color: #006400;
+}
+
+.get-trezor-btn {
+    background-color: #006400;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.get-trezor-btn:hover {
+    background-color: #004d00;
+}
+
+.main-content {
+    padding: 40px 20px;
+}
+
+.intro-section {
+    background: #f1f5f8;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #006400;
+}
+
+.intro-section p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.download-btn {
+    background: #e0e0e0;
+    color: #333;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.download-btn.green {
+    background: #006400;
+    color: #fff;
+}
+
+.download-btn:hover {
+    background: #ccc;
+}
+
+.download-btn.green:hover {
+    background: #004d00;
+}
+
+.version-info {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.coin-management-section {
+    text-align: center;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.coin-management-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #006400;
+}
+
+.coin-management-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.coin-management-img {
+    margin-top: 20px;
+}
+
+.coin-management-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
